@@ -1,0 +1,16 @@
+# Kernel module build artifacts
+module/*.o
+module/*.ko
+module/*.mod
+module/*.mod.c
+module/*.mod.o
+module/modules.order
+module/Module.symvers
+module/.*.cmd
+module/.tmp_versions/
+
+# User-space test binary
+test_c/append_hello_mod_test
+
+# Common generated files
+*.tmp
