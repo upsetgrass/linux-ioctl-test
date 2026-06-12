@@ -21,7 +21,7 @@
 int main(int argc, char **argv)
 {
 	const char *dev = "/dev/append_hello";
-	const char *path = "~/tmp/ioctl_append_test.txt";
+	const char *path = "/home/happy_grass/tmp/ioctl_append_test.txt";
 	const char *msg = "hello world\\n";
 	struct append_hello_req req = {0};
 	struct append_hello_path_req path_req = {0};
